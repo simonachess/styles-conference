@@ -1,0 +1,23 @@
+@import 'theming.scss';
+
+footer {
+    padding: 44px 0 44px 0;
+    font-size: 14px;
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        small {
+            font-weight: 400;
+            color: $primary;
+        }
+        nav a {
+            margin: 0 10px;
+            padding: 10px;
+            color: #fff;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
